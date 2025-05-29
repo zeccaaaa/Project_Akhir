@@ -5,7 +5,7 @@ const AboutSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
-              Our Story
+              Our Story FYNEÁ
             </h2>
             <div className="w-20 h-1 bg-pink-600 mx-auto"></div>
           </div>
@@ -14,38 +14,36 @@ const AboutSection = () => {
             <div className="relative">
               <div className="relative z-10">
                 <img
-                  src="/about-image.jpg" // You'll need to add this image
+                  src="pengharum ruangan.jpg" 
                   alt="FYNEÁ Craftsmanship"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-md shadow-lg "
                 />
               </div>
               <div className="absolute top-0 left-0 -mt-4 -ml-4 w-full h-full border-2 border-pink-200 rounded-lg"></div>
-              <div className="absolute bottom-0 right-0 mb-4 mr-4">
-                <div className="bg-white p-4 rounded-lg shadow-lg">
-                  <p className="text-pink-600 font-serif text-lg">Since 2024</p>
+                <div className="p-4 ">
+                  <p className="text-pink-600 font-serif text-lg">Since 2000</p>
                 </div>
-              </div>
             </div>
 
             <div className="space-y-6">
               <h3 className="text-2xl font-serif font-semibold text-gray-900">
-                Crafting Elegant Atmospheres
+                Menciptakan Suasana Elegan
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                At FYNEÁ, we believe that every space deserves to be transformed into a sanctuary of elegance and tranquility. Our journey began with a simple vision: to create premium room fragrances that not only enhance your space but elevate your daily experiences.
+                At FYNEÁ, kami percaya bahwa setiap ruang layak diubah menjadi tempat yang elegan dan tenang. Perjalanan kami dimulai dengan visi sederhana: menciptakan wewangian ruangan premium yang tidak hanya memperindah ruang Anda tetapi juga meningkatkan pengalaman harian Anda.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Each FYNEÁ fragrance is carefully crafted using the finest ingredients, blending traditional artisanal methods with modern innovation. Our commitment to quality and sustainability ensures that every product not only smells divine but also contributes to a better world.
+                Setiap wewangian FYNEÁ dibuat dengan teliti menggunakan bahan-bahan terbaik, menggabungkan metode tradisional dengan inovasi modern. Komitmen kami terhadap kualitas dan keberlanjutan memastikan bahwa setiap produk tidak hanya harum memikat tetapi juga berkontribusi pada dunia yang lebih baik.
               </p>
               
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center p-6 bg-pink-50 rounded-lg">
-                  <h4 className="text-xl font-serif font-semibold text-pink-600 mb-2">Artisanal</h4>
-                  <p className="text-gray-600">Handcrafted with care and precision</p>
+                  <h4 className="text-xl font-serif font-semibold text-pink-600 mb-2">Tradisional</h4>
+                  <p className="text-gray-600">Dibuat dengan tangan secara teliti dan presisi</p>
                 </div>
                 <div className="text-center p-6 bg-pink-50 rounded-lg">
                   <h4 className="text-xl font-serif font-semibold text-pink-600 mb-2">Premium</h4>
-                  <p className="text-gray-600">Finest quality ingredients</p>
+                  <p className="text-gray-600">Bahan baku berkualitas terbaik</p>
                 </div>
               </div>
             </div>
@@ -58,8 +56,8 @@ const AboutSection = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h4 className="text-xl font-serif font-semibold text-gray-900 mb-2">Quality Assured</h4>
-              <p className="text-gray-600">Every product meets our high standards of excellence</p>
+              <h4 className="text-xl font-serif font-semibold text-gray-900 mb-2">Kualitas Terjamin</h4>
+              <p className="text-gray-600">Setiap produk memenuhi standar kualitas tinggi kami</p>
             </div>
             
             <div className="text-center p-6">
@@ -68,8 +66,8 @@ const AboutSection = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 7l-8 4-8-4m16 0l-8 4m8 4l-8 4m8-4l-8 4m8-4v10M4 7l8 4v10M4 7v10l8 4" />
                 </svg>
               </div>
-              <h4 className="text-xl font-serif font-semibold text-gray-900 mb-2">Sustainable</h4>
-              <p className="text-gray-600">Eco-friendly practices and packaging</p>
+              <h4 className="text-xl font-serif font-semibold text-gray-900 mb-2">Berkelanjutan</h4>
+              <p className="text-gray-600">Praktik ramah lingkungan dan kemasan yang ramah lingkungan</p>
             </div>
             
             <div className="text-center p-6">
@@ -78,8 +76,8 @@ const AboutSection = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h4 className="text-xl font-serif font-semibold text-gray-900 mb-2">Customer Satisfaction</h4>
-              <p className="text-gray-600">Dedicated to exceeding expectations</p>
+              <h4 className="text-xl font-serif font-semibold text-gray-900 mb-2">Kepuasan Pelanggan</h4>
+              <p className="text-gray-600">Komitmen untuk melampaui ekspektasi</p>
             </div>
           </div>
         </div>
