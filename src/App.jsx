@@ -9,16 +9,14 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Layout>
       <Routes>
-      <Route path="/" element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/product" element={<Product />} />
-      </Route>
-    </Routes>
-    </BrowserRouter>
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Layout>
   )
 }
 
