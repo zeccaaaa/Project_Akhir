@@ -5,7 +5,7 @@ const AboutSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
-              Our Story FYNEÁ
+              Our Story FYNÉA
             </h2>
             <div className="w-20 h-1 bg-pink-600 mx-auto"></div>
           </div>
@@ -30,10 +30,10 @@ const AboutSection = () => {
                 Menciptakan Suasana Elegan
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                At FYNEÁ, kami percaya bahwa setiap ruang layak diubah menjadi tempat yang elegan dan tenang. Perjalanan kami dimulai dengan visi sederhana: menciptakan wewangian ruangan premium yang tidak hanya memperindah ruang Anda tetapi juga meningkatkan pengalaman harian Anda.
+                At FYNÉA, kami percaya bahwa setiap ruang layak diubah menjadi tempat yang elegan dan tenang. Perjalanan kami dimulai dengan visi sederhana: menciptakan wewangian ruangan premium yang tidak hanya memperindah ruang Anda tetapi juga meningkatkan pengalaman harian Anda.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Setiap wewangian FYNEÁ dibuat dengan teliti menggunakan bahan-bahan terbaik, menggabungkan metode tradisional dengan inovasi modern. Komitmen kami terhadap kualitas dan keberlanjutan memastikan bahwa setiap produk tidak hanya harum memikat tetapi juga berkontribusi pada dunia yang lebih baik.
+                Setiap wewangian FYNÉA dibuat dengan teliti menggunakan bahan-bahan terbaik, menggabungkan metode tradisional dengan inovasi modern. Komitmen kami terhadap kualitas dan keberlanjutan memastikan bahwa setiap produk tidak hanya harum memikat tetapi juga berkontribusi pada dunia yang lebih baik.
               </p>
               
               <div className="grid grid-cols-2 gap-6 mt-8">

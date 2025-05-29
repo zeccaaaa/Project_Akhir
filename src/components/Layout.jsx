@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-3xl font-serif font-bold text-pink-600">FYNEÁ</span>
+              <span className="text-3xl font-serif font-bold text-pink-600">FYNÉA</span>
             </Link>
 
             {/* Desktop Navigation */}
@@ -130,33 +130,84 @@ const Layout = ({ children }) => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-pink-50 to-white py-8 mt-16">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-4 md:mb-0">
-              <span className="text-2xl font-serif font-bold text-pink-600">FYNEÁ</span>
-              <p className="text-gray-600 mt-2">Elevate your space with elegant fragrances</p>
-            </div>
-            <div className="flex space-x-6">
-              <a href="#" className="text-gray-600 hover:text-pink-600">
-                <span className="sr-only">Facebook</span>
-                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
-                </svg>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-pink-600">
-                <span className="sr-only">Instagram</span>
-                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div className="mt-8 text-center text-gray-500 text-sm">
-            © {new Date().getFullYear()} FYNEÁ. All rights reserved.
-          </div>
-        </div>
-      </footer>
+      <footer className="bg-gray-100 text-gray-700 pt-10 pb-4 mt-16">
+  <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8 text-sm">
+    {/* Logo & Subscribe */}
+    <div>
+      <h2 className="text-xl font-bold mb-1">FYNÉA</h2>
+      <p className="text-gray-500 mb-4">Your Tagline here</p>
+      <p className="font-semibold mb-2">Subscribe Now</p>
+      <div className="flex items-center border-b border-gray-400 py-1 mb-2">
+        <span className="text-sm mr-2">✉️</span>
+        <input
+          type="email"
+          placeholder="Enter your Email"
+          className="bg-transparent focus:outline-none w-full"
+        />
+      </div>
+      <button className="bg-black text-white text-xs px-4 py-1 mt-2">Subscribe</button>
+    </div>
+
+    {/* Information */}
+    <div>
+      <h3 className="font-semibold mb-2">Information</h3>
+      <ul className="space-y-1">
+        <li><a href="#">About FYNÉA</a></li>
+        <li><a href="#">More Search</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Events</a></li>
+      </ul>
+    </div>
+
+    {/* Helpful Links */}
+    <div>
+      <h3 className="font-semibold mb-2">Helpful Links</h3>
+      <ul className="space-y-1">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Supports</a></li>
+        <li><a href="#">Terms & Condition</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    {/* Our Services */}
+    <div>
+      <h3 className="font-semibold mb-2">Our Services</h3>
+      <ul className="space-y-1">
+        <li><a href="#">Brands list</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Return & Exchange</a></li>
+        <li><a href="#">Fashion list</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+
+    {/* Contact Us */}
+    <div>
+      <h3 className="font-semibold mb-2">Contact Us</h3>
+      <p className="flex items-center gap-2"><span>📞</span> +91 9999 999 999</p>
+      <p className="flex items-center gap-2"><span>✉️</span> fynea.com</p>
+      <div className="flex gap-3 mt-3 text-black">
+        <a href="#"><span className="text-xl">🔵</span></a>
+        <a href="#"><span className="text-xl">🔴</span></a>
+        <a href="#"><span className="text-xl">⚫</span></a>
+        <a href="#"><span className="text-xl">🟣</span></a>
+      </div>
+    </div>
+  </div>
+
+  {/* Bottom Footer */}
+  <div className="mt-10 border-t border-gray-300 pt-4 text-center text-xs text-gray-500">
+    2018 © companyLtd. | All Right reserved
+    <div className="mt-1 space-x-3">
+      <a href="#">FAQ</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms & Condition</a>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 };

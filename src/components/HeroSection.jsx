@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 mb-6">
-              Transform Your Space with <span className="text-pink-600">FYNEÁ</span>
+              Transform Your Space with <span className="text-pink-600">FYNÉA</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Discover our collection of premium room fragrances, crafted to create an atmosphere of elegance and tranquility in your space.
