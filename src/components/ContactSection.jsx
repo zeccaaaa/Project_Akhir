@@ -106,11 +106,8 @@ const ContactSection = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center shadow-md">
-                <span className="text-white font-bold text-sm">N</span>
-              </div>
               <span className="text-xl font-bold bg-gradient-to-r from-pink-500 to-pink-600 bg-clip-text text-transparent">
-                Nursee
+                FYNÉA
               </span>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
@@ -148,21 +145,21 @@ const ContactSection = () => {
       {/* Hero Section with Background Image */}
       <section className="relative py-24 overflow-hidden">
         <img
-          src="/placeholder.svg?height=600&width=1200"
-          alt="Contact Us Background"
+          src="/bgcontact.jpg"
+          alt=""
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-pink-200/60 via-pink-300/50 to-pink-400/60"></div>
         <div className="absolute inset-0 bg-pink-500/20"></div>
 
         <div className="relative container mx-auto px-4 text-center z-10">
-          <div className="inline-block px-4 py-2 bg-white/30 backdrop-blur-sm rounded-full mb-6 border border-white/20">
-            <span className="text-pink-900 font-medium">✨ Get In Touch With Us</span>
+          <div className="inline-block px-4 py-2 bg-white/30  rounded-full mb-6 border border-white/5">
+            <span className="text-pink-900 font-medium">A Scented Connection</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 drop-shadow-2xl">Contact Us</h1>
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 drop-shadow-2xl">Wewangian Dimulai dari Percakapan</h1>
           <p className="text-pink-50 max-w-2xl mx-auto text-lg leading-relaxed drop-shadow-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
-            pulvinar dapibus leo.
+            Setiap harum memiliki cerita.
+                  Kirimkan pesanmu, dan biarkan kami bantu menghadirkan aroma yang menyentuh hati dan memperindah ruangmu.
           </p>
           <div className="mt-8 flex justify-center">
             <div className="w-24 h-1 bg-gradient-to-r from-transparent via-white to-transparent rounded-full"></div>
@@ -175,52 +172,45 @@ const ContactSection = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 max-w-7xl mx-auto">
             {/* Left Column - Contact Info */}
-            <div className="space-y-8">
+            <div className="space-y-2">
               <div className="text-center lg:text-left">
                 <div className="inline-block px-4 py-2 bg-pink-100 rounded-full mb-4">
-                  <span className="text-pink-600 font-medium text-sm">💌 Let's Connect</span>
+                  <span className="text-pink-600 font-medium text-sm">💌 Say It with Scent</span>
                 </div>
-                <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-500 to-pink-600 bg-clip-text text-transparent mb-6">
-                  Get In Touch
-                </h2>
-                <p className="text-gray-600 text-lg leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                  mattis, pulvinar dapibus leo.
-                </p>
               </div>
 
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div className="space-y-3">
+                <div className="flex items-start space-x-4 p-4 bg-pink-100 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                   <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg text-white">
                     <PhoneIcon />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">(+081) 5678 1234</p>
+                    <p className="text-gray-600">0123-4567-8910</p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-start space-x-4 p-4 bg-pink-100 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                   <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg text-white">
                     <MailIcon />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">mail@nursee.com</p>
+                    <p className="text-gray-600">fynea@gmail.com</p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-start space-x-4 p-4 bg-pink-100 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                   <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg text-white">
                     <MapPinIcon />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Address</h3>
-                    <p className="text-gray-600">London Eye, London</p>
+                    <p className="text-gray-600">Jl.Sungai Sahang, Palembang.</p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-start space-x-4 p-4 bg-pink-100 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                   <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg text-white">
                     <InstagramIcon />
                   </div>
@@ -231,7 +221,7 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-sm">
+              <div className="bg-pink-100 p-6 rounded-xl shadow-sm">
                 <h3 className="font-semibold text-gray-800 mb-4 flex items-center">
                   <span className="mr-2">✨</span>
                   Follow Us
@@ -256,13 +246,13 @@ const ContactSection = () => {
                 <div className="inline-block px-4 py-2 bg-gradient-to-r from-pink-100 to-pink-200 rounded-full mb-4">
                   <span className="text-pink-600 font-medium text-sm">📝 Send Message</span>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800">Let's Start Conversation</h3>
+                <h3 className="text-2xl font-bold text-gray-800 text-pink-500">Let's Start Conversation</h3>
               </div>
 
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-sm font-medium text-pink-500 mb-2">
                       Email Address
                     </label>
                     <input
@@ -277,7 +267,7 @@ const ContactSection = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="name" className="block text-sm font-medium text-pink-500 mb-2">
                       Full Name
                     </label>
                     <input
@@ -294,7 +284,7 @@ const ContactSection = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="phone" className="block text-sm font-medium text-pink-500 mb-2">
                     Phone Number
                   </label>
                   <input
@@ -304,12 +294,12 @@ const ContactSection = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-pink-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-300 focus:border-pink-400 transition-all bg-pink-25"
-                    placeholder="+1 (555) 000-0000"
+                    placeholder="(+62)"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-pink-500 mb-2">
                     Your Message
                   </label>
                   <textarea
@@ -328,7 +318,7 @@ const ContactSection = () => {
                   type="submit"
                   className="w-full px-6 py-4 bg-gradient-to-r from-pink-400 to-pink-500 text-white font-semibold rounded-lg hover:from-pink-500 hover:to-pink-600 transform hover:scale-[1.02] transition-all duration-200 shadow-lg hover:shadow-xl"
                 >
-                  ✨ Send Message
+                Send Your Love 💕
                 </button>
               </form>
             </div>
@@ -337,20 +327,22 @@ const ContactSection = () => {
       </section>
 
       {/* Map Section */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="bg-gradient-to-br from-pink-50 to-pink-100 h-96 rounded-2xl flex items-center justify-center border border-pink-200">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-pink-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg text-white">
-                <MapPinIcon />
-              </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">Find Us Here</h3>
-              <p className="text-gray-600">Interactive Map</p>
-              <p className="text-sm text-pink-600 font-medium">London Eye, London UK</p>
-            </div>
-          </div>
-        </div>
-      </section>
+<section className="py-12 bg-white">
+  <div className="container mx-auto px-4">
+    <div className="h-[450px] overflow-hidden rounded-2xl border border-pink-200 shadow">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.1512420138496!2d104.7311315!3d-2.9795624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75eb0503a7c3%3A0x28ea9ddd3efd54fd!2sManajemen%20informatika%20D4%20POLITEKNIK%20NEGERI%20SRIWIJAYA!5e0!3m2!1sid!2sid!4v1717063854782!5m2!1sid!2sid"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </div>
+  </div>
+</section>
+
 
       
     </div>

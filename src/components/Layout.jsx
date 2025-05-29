@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-gray-500 hover:text-gray-700"
+              className="md:hidden text-gray-500 hover:text-pink-600"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <svg
@@ -130,27 +130,27 @@ const Layout = ({ children }) => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-100 text-gray-700 pt-10 pb-4 mt-16">
+      <footer className="bg-pink-100 text-pink-600 pt-10 pb-4 mt-16">
   <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8 text-sm">
     {/* Logo & Subscribe */}
     <div>
-      <h2 className="text-xl font-bold mb-1">FYNÉA</h2>
-      <p className="text-gray-500 mb-4">Your Tagline here</p>
+      <h2 className="text-xl text-pink-500 font-bold mb-1">FYNÉA</h2>
+      <p className="text-pink-400 mb-4">A Scented Connection</p>
       <p className="font-semibold mb-2">Subscribe Now</p>
-      <div className="flex items-center border-b border-gray-400 py-1 mb-2">
-        <span className="text-sm mr-2">✉️</span>
+      <div className="flex items-center border-b border-pink-400 py-1 mb-2">
+        <span className="text-sm mr-2">💌</span>
         <input
           type="email"
-          placeholder="Enter your Email"
+          placeholder="Send Your Love"
           className="bg-transparent focus:outline-none w-full"
         />
       </div>
-      <button className="bg-black text-white text-xs px-4 py-1 mt-2">Subscribe</button>
+      <button className="bg-pink-500 hover:bg-pink-300 text-white text-xs px-4 py-1 mt-2">Subscribe</button>
     </div>
 
     {/* Information */}
     <div>
-      <h3 className="font-semibold mb-2">Information</h3>
+      <h3 className="font-extrabold mb-2">Information</h3>
       <ul className="space-y-1">
         <li><a href="#">About FYNÉA</a></li>
         <li><a href="#">More Search</a></li>
@@ -162,7 +162,7 @@ const Layout = ({ children }) => {
 
     {/* Helpful Links */}
     <div>
-      <h3 className="font-semibold mb-2">Helpful Links</h3>
+      <h3 className="font-extrabold mb-2">Helpful Links</h3>
       <ul className="space-y-1">
         <li><a href="#">Services</a></li>
         <li><a href="#">Supports</a></li>
@@ -173,7 +173,7 @@ const Layout = ({ children }) => {
 
     {/* Our Services */}
     <div>
-      <h3 className="font-semibold mb-2">Our Services</h3>
+      <h3 className="font-extrabold mb-2">Our Services</h3>
       <ul className="space-y-1">
         <li><a href="#">Brands list</a></li>
         <li><a href="#">Order</a></li>
@@ -185,21 +185,21 @@ const Layout = ({ children }) => {
 
     {/* Contact Us */}
     <div>
-      <h3 className="font-semibold mb-2">Contact Us</h3>
-      <p className="flex items-center gap-2"><span>📞</span> +91 9999 999 999</p>
-      <p className="flex items-center gap-2"><span>✉️</span> fynea.com</p>
+      <h3 className="font-extrabold mb-2">Contact Us</h3>
+      <p className="flex items-center gap-2"><span>📞</span> 0123-4567-8910</p>
+      <p className="flex items-center gap-2"><span>💌</span> fynea@gmail.com</p>
       <div className="flex gap-3 mt-3 text-black">
-        <a href="#"><span className="text-xl">🔵</span></a>
-        <a href="#"><span className="text-xl">🔴</span></a>
-        <a href="#"><span className="text-xl">⚫</span></a>
-        <a href="#"><span className="text-xl">🟣</span></a>
+        <a href="#"><span className="text-xl">🌸</span></a>
+        <a href="#"><span className="text-xl">🌸</span></a>
+        <a href="#"><span className="text-xl">🌸</span></a>
+        <a href="#"><span className="text-xl">🌸</span></a>
       </div>
     </div>
   </div>
 
   {/* Bottom Footer */}
   <div className="mt-10 border-t border-gray-300 pt-4 text-center text-xs text-gray-500">
-    2018 © companyLtd. | All Right reserved
+    2025 © SINTAK Class B (2). | All Right reserved
     <div className="mt-1 space-x-3">
       <a href="#">FAQ</a>
       <a href="#">Privacy</a>
