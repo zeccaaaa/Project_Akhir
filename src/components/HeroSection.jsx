@@ -42,13 +42,13 @@ const HeroSection = () => {
           <div className="w-full md:w-1/2 relative flex justify-center ml-10">
             <div className="relative z-10">
               <img
-                src="home.jpg" // You'll need to add this image
+                src="home.jpg"
                 alt="FYNEÁ Premium Room Fragrance"
                 className="rounded-lg shadow-2xl w-[500px] h-[500px] object-cover z-10"
               />
             </div>
-            <div className="absolute right-2 bottom-2 z-0 w-[340px] h-[430px] border-2 border-pink-200 rounded-lg"></div>
-            <div className="absolute right-4 bottom-4 z-0 w-[340px] h-[430px] border-2 border-gray-200 rounded-lg"></div>
+            <div className="absolute right-4 bottom-4 z-0  p-20px w-[340px] h-[430px] border-2 border-pink-200 rounded-lg"></div>
+            <div className="absolute right-6 bottom-6 z-0 w-[340px] h-[430px] border-2 border-gray-200 rounded-lg"></div>
           </div>
         </div>
       </div>
@@ -57,3 +57,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
