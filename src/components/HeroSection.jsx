@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -10,15 +10,19 @@ const HeroSection = () => {
           <div className="absolute top-40 right-40 w-64 h-64 bg-yellow-200 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
         </div>
       </div>
-      
+
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 mb-6">
-              Transform Your Space with <span className="text-pink-600">FYNÉA</span>
+              Transform Your Space with{" "}
+              <span className="text-pink-600">FYNÉA</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Discover our collection of premium room fragrances, crafted to create an atmosphere of elegance and tranquility in your space.
+              Rasakan nuansa mewah dan ketenangan dengan koleksi wewangian
+              ruangan premium dari FYNÉA. Dirancang khusus untuk menciptakan
+              atmosfer yang elegan, nyaman, dan memikat di setiap ruang tempat
+              Anda berada.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -35,16 +39,16 @@ const HeroSection = () => {
               </Link>
             </div>
           </div>
-          <div className="md:w-1/2 relative">
+          <div className="w-full md:w-1/2 relative flex justify-center ml-10">
             <div className="relative z-10">
               <img
-                src="/hero-product.jpg" // You'll need to add this image
+                src="home.jpg" // You'll need to add this image
                 alt="FYNEÁ Premium Room Fragrance"
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl w-[500px] h-[500px] object-cover z-10"
               />
             </div>
-            <div className="absolute top-0 right-0 -mt-4 -mr-4 w-full h-full border-2 border-pink-200 rounded-lg"></div>
-            <div className="absolute top-0 right-0 -mt-8 -mr-8 w-full h-full border-2 border-gold-200 rounded-lg"></div>
+            <div className="absolute right-2 bottom-2 z-0 w-[340px] h-[430px] border-2 border-pink-200 rounded-lg"></div>
+            <div className="absolute right-4 bottom-4 z-0 w-[340px] h-[430px] border-2 border-gray-200 rounded-lg"></div>
           </div>
         </div>
       </div>
@@ -52,4 +56,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection; 
+export default HeroSection;
